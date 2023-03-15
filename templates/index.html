@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="static/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <h1>Generator planu lekcji</h1>
+                <h2>Copyright 2021</h2>
+            </div>
+            <div id="container">
+                Podaj liczbę godzin w ciągu dnia: <input type="number" id="lesson-number"></br>
+                <div id="time-container">   </div>
+
+                Podaj liczbę klas: <input type="number" id="class-number">
+
+                <table id="table">
+                    <tr id="first-row">
+                       <th>Przedmiot / Klasa</th>
+                    </tr>
+                </table>
+                <input type="text" id="new-subject">
+                <button id="add-subject">dodaj przedmiot</button>
+                <button id="generate-graph">generuj graf</button>
+            </div>
+        </div>
+
+        <script src="/static/main.js"></script>
+    </body>
+
+</html>
